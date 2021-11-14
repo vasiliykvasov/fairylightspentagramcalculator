@@ -37,6 +37,11 @@ h1 {
     color: crimson;
     text-transform: uppercase;
 }
+
+.page-404 h1 {
+    margin-top: 15vh;
+}
+
 /* Pentagram Image */
 .pentagram-img {
     margin-bottom: 1em;
@@ -47,6 +52,10 @@ img#fairy-lights-pentagram {
     width: 32vh;
     min-width: 150px;}
 
+.image-404 {
+    filter: grayscale(100%);
+}
+
 #clicker {text-decoration: none;}
 
 #clicker #click {
@@ -54,6 +63,13 @@ img#fairy-lights-pentagram {
     font-size: 0.7em;
     color: #060606;
     text-decoration: none;}
+
+.main-page {
+    font-family: 'Mansalva', sans-serif;
+    font-size: 1.4em;
+    color: #060606;
+    text-decoration: none;
+}
 
 /* Forms */
 #forms {
